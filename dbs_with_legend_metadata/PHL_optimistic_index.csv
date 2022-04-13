@@ -1,0 +1,46 @@
+Table 1
+Name,Type,"Mass
+(ME)","Radius
+(RE)","Flux
+(SE)","Tsurf
+(K)","Period
+(days)","Distance
+(ly)",ESI
+Kepler-452 b,G-Warm Superterran,~ 3.31,1.63,1.11,~ 295,384.8,1799,0.83
+Kepler-62 e,K-Warm Superterran,—,1.61,1.15,~ 298,122.4,981,0.83
+Kepler-1652 b,M-Warm Superterran,~ 3.18,1.60,0.84,~ 276,38.1,822,0.83
+Wolf 1061 c,M-Warm Superterran,≥ 3.41,~ 1.66,1.30,~ 306,17.9,14,0.80
+Kepler-1410 b,K-Warm Superterran,~ 3.81,1.78,1.07,~ 293,60.9,1196,0.80
+GJ 667 C c,M-Warm Superterran,≥ 3.81,~ 1.77,0.88,~ 278,28.1,24,0.80
+Kepler-1544 b,K-Warm Superterran,~ 3.81,1.78,0.84,~ 276,168.8,1092,0.79
+Kepler-283 c,K-Warm Superterran,~ 3.97,1.82,0.89,~ 280,92.7,1526,0.79
+Kepler-1638 b,G-Warm Superterran,~ 4.16,1.87,1.39,~ 312,259.3,4973,0.76
+Kepler-440 b,K-Warm Superterran,~ 4.13,1.91,1.44,~ 308,101.1,981,0.75
+GJ 433 d,M-Warm Superterran,≥ 5.22,~ 2.14,1.06,~ 292,36.1,30,0.74
+Kepler-1653 b,K-Warm Superterran,~ 5.34,2.17,1.04,~ 291,140.3,2461,0.74
+GJ 832 c,M-Warm Superterran,≥ 5.40,~ 2.19,0.99,~ 286,35.7,16,0.74
+Kepler-705 b,M-Warm Superterran,~ 5.09,2.11,0.77,~ 269,56.1,903,0.73
+K2-332 b,M-Warm Superterran,~ 5.47,2.20,1.17,~ 299,17.7,402,0.73
+Kepler-155 c,M-Warm Superterran,~ 5.66,2.24,1.05,~ 291,52.7,957,0.73
+TOI-2257 b (N),M-Warm Superterran,~ 5.43,2.20,0.74,~ 254,35.2,188,0.72
+Kepler-443 b,K-Warm Superterran,~ 6.04,2.35,0.89,~ 279,177.7,2615,0.71
+Kepler-22 b,G-Warm Superterran,—,2.38,1.10,~ 294,289.9,635,0.71
+Kepler-1701 b,K-Warm Superterran,~ 5.56,2.22,1.42,~ 314,169.1,1904,0.71
+K2-18 b,M-Warm Superterran,8.92,2.37,1.26,~ 303,32.9,124,0.70
+Kepler-1606 b,G-Warm Superterran,~ 4.93,2.07,1.64,~ 325,196.4,2710,0.70
+K2-9 b,M-Warm Superterran,~ 5.69,2.25,1.45,~ 316,18.4,270,0.70
+GJ 180 c,M-Warm Superterran,≥ 6.40,~ 2.41,0.78,~ 270,24.3,39,0.70
+GJ 163 c,M-Warm Superterran,≥ 6.80,~ 2.50,1.25,~ 304,25.6,49,0.69
+Kepler-1540 b,K-Warm Superterran,~ 6.77,2.49,0.78,~ 270,125.4,799,0.69
+Kepler-174 d,K-Warm Superterran,~ 5.43,2.19,0.59,~ 252,247.4,1254,0.68
+HD 40307 g,K-Warm Superterran,≥ 7.09,~ 2.57,0.67,~ 256,197.8,42,0.66
+Kepler-296 f,M-Warm Superterran,~ 3.91,1.80,0.44,~ 229,63.3,544,0.66
+HIP 38594 b,M-Warm Superterran,≥ 8.10,~ 2.77,1.34,~ 308,60.7,58,0.65
+K2-288 B b,M-Warm Superterran,~ 4.26,1.91,0.44,~ 234,31.4,214,0.65
+HD 216520 c,K-Warm Superterran,≥ 9.44,~ 3.04,1.28,~ 305,154.4,64,0.63
+GJ 3293 d,M-Warm Superterran,≥ 7.60,~ 2.67,0.59,~ 251,48.1,66,0.63
+LHS 1140 b,M-Warm Superterran,6.38,1.64,0.36,~ 222,24.7,49,0.62
+GJ 229 A c,M-Warm Superterran,≥ 7.27,~ 2.60,0.53,~ 244,122.0,19,0.62
+GJ 357 d,M-Warm Superterran,≥ 6.10,~ 2.34,0.38,~ 226,55.7,31,0.58
+GJ 682 b,M-Warm Superterran,≥ 4.40,~ 1.94,0.31,~ 215,17.5,16,0.57
+GJ 180 d,M-Warm Superterran,≥ 7.56,~ 2.66,0.26,~ 205,106.3,39,0.48
