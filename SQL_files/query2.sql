@@ -1,7 +1,6 @@
-.output combine.csv
+.mode csv
+.output planetary_systems_modified.csv
 
-SELECT *
-FROM PHL_OPTIMISTIC_INDEX AS P LEFT OUTER JOIN EPA_PLANETARY_SYSTEMS AS E
-ON P.name = E.pl_name;
+SELECT * FROM EPA_PLANETARY_SYSTEMS;
 
 .output stdout
