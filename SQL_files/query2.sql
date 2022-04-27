@@ -1,5 +1,5 @@
 .mode csv
-.output planetary_systems_modified.csv
+.output EPA_hb_test.csv
 
 SELECT * FROM EPA_PLANETARY_SYSTEMS;
 
