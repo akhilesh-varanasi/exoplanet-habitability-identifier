@@ -5,7 +5,7 @@ from sklearn.linear_model import ElasticNetCV
 from sklearn.model_selection import RepeatedKFold
 # load the dataset
 url = 'https://raw.githubusercontent.com/jbrownlee/Datasets/master/housing.csv'
-dataframe = read_csv(url, header=None)
+dataframe = read_csv('EPA_hb_test.csv')
 data = dataframe.values
 X, y = data[:, :-1], data[:, -1]
 # define model evaluation method
