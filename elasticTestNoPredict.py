@@ -1,4 +1,5 @@
 # evaluate an elastic net model on the dataset
+from random import random
 from numpy import mean
 from numpy import std
 from numpy import absolute
@@ -20,7 +21,7 @@ data = dataframe.values
 # impute missing data
 my_imputer = SimpleImputer()
 data_rev = my_imputer.fit_transform(data)
-
+random.shuffle(data_rev)
 # # new dataframe
 # data_rev_dataframe = DataFrame(data_rev, index=None, columns=None)
 # # export dataframe
