@@ -21,3 +21,66 @@ body {
     outline: none;
     border-radius: 3px;
 }
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+#selector {
+    height: 104px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectbtn {
+    height: 48px;
+    width: 48px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#selectvalue {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    background-color: blue;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#selectvalue {
+    content: '';
+    border-top: 17px solid #ffd200;
+    border-left: 24px solid;
+    border-right: 24px solid;
+    position: absolute;
+    bottom: -14px;
+    left:0;
+
+}
+
+#progressbar {
+    width: 50%;
+    height: 7px;
+    background: #ffd200;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
