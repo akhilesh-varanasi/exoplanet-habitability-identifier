@@ -5,7 +5,7 @@ from pandas import DataFrame, read_csv
 from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn import metrics
-
+# from imblearn.over_sampling import SMOTE
 # take imputed dataset
 # subtract 1 +ve val and 5 -ve val
 
@@ -22,7 +22,7 @@ target = [row[-1] for row in data_rev]
 # Split dataset into training set and test set
 X_train, X_test, y_train, y_test = train_test_split(main, target, test_size=0.3,random_state=109)
 #Create a svm Classifier
-clf = svm.SVC(kernel='poly', gamma=2) # Linear Kernel
+clf = svm.SVC(kernel='linear', gamma=2) # Linear Kernel
 #Train the model using the training sets
 clf.fit(X_train, y_train)
 #Predict the response for test dataset
