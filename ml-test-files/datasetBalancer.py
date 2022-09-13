@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import RandomOverSampler
 from sklearn import svm
 from sklearn import metrics
+from sklearn.model_selection import GridSearchCV
 
 # read and impute csv
 data_pd = pd.read_csv('EPA_ml_ready_test.csv')
@@ -18,14 +19,18 @@ random.shuffle(data)
 # separate the target column
 main = [row[:-1] for row in data]
 target = [row[-1] for row in data]
+
 # oversample underrepresented data
 ros = RandomOverSampler(random_state=0)
 X_resampled, y_resampled = ros.fit_resample(main, target)
 X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.3,random_state=109)
+
+
 # create SVC model
-clf = svm.SVC(kernel='linear', gamma=2)
+clf = svm.SVC(kernel='rbf', gamma='scale')
 clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
+
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 # Model Recall: what percentage of positive tuples are labelled as such?
 print("Recall:",metrics.recall_score(y_test, y_pred))
